@@ -368,7 +368,7 @@ const Login = ({ isLoginForm, forgotPassword }) => {
               {isLoginForm
                 ? t("auth.signIn")
                 : forgotPassword
-                ? t("auth.forgotPassword")
+                ? t("auth.forgotPasswordTitle")
                 : t("auth.joinNow")}
             </Heading>
             {authFormState.error && (
@@ -536,7 +536,7 @@ const Login = ({ isLoginForm, forgotPassword }) => {
                   <>
                     <p>
                       <AuthLink to="/auth/forgot-password">
-                        {t("auth.forgotPassword")}
+                        {t("auth.forgotPasswordLink")}
                       </AuthLink>
                     </p>
                     <p>
