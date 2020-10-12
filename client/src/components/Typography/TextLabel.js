@@ -1,6 +1,6 @@
 import { Typography } from "antd";
 import styled from "styled-components";
-import { mq, theme } from "constants/theme";
+import { theme } from "constants/theme";
 
 const { Text } = Typography;
 
